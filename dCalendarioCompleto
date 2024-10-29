@@ -10,8 +10,8 @@ let
 
 // Criando uma lista de Datas únicas e Bufferizando.
 
+    //Datas = List.Buffer(List.Distinct(List.Combine({fVendas[Data],fMeta[Data]}))),
     Datas = List.Buffer(List.Distinct(fVendas[Data])),
-
 
 
 //Não alterar daqui pra baixo
