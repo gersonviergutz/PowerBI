@@ -1,0 +1,16 @@
+createOrReplace
+
+	table Measure
+
+		measure 'Medida Exemplo' = NOW()
+			formatString: General Date
+		
+		column value
+			isHidden
+			summarizeBy: sum
+			isNameInferred
+			sourceColumn: [Value]
+
+		partition Measure = calculated
+			mode: import
+			source = {BLANK()}
