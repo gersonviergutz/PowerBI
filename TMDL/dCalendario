@@ -1,7 +1,7 @@
 createOrReplace
 
 	table dCalendario
-		  dataCategory: Time
+		dataCategory: Time
 
 		column Data
 			dataType: dateTime
@@ -239,4 +239,3 @@ createOrReplace
 		annotation PBI_NavigationStepName = Navegação
 
 		annotation PBI_ResultType = Table
-
